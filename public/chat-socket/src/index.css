@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container{
+  display: flex;
+  height: 100vh;
+  
+}
+.sidebar{
+  width: 25%;
+  background-color: bisque;
+  padding: 20px;
+}
+.chat{
+  width: 75%;
+  background-color: cadetblue;
+  height: 100vh;
+  
+}
+.chat-container{
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+}
+.chat-box{
+  flex: 7;
+  background-color: rgb(196, 255, 220);
+}
+.message{
+ flex: 3;
+background-color: rgb(193, 193, 211);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.message form{
+  display: flex;
+}
